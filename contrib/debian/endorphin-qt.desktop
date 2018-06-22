@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Endorphin
+Comment=Endorphin P2P Cryptocurrency
+Comment[fr]=Endorphin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Endorphin, eşten eşe kriptografik sanal para birimi
+Exec=endorphin-qt %u
+Terminal=false
+Type=Application
+Icon=endorphin128
+MimeType=x-scheme-handler/endorphin;
+Categories=Office;Finance;

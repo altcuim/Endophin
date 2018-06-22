@@ -1,0 +1,68 @@
+Source: endorphin
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel
+Uploaders: Holger Schinzel
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://endorphin.network/
+Vcs-Git: git://github.com/endorphincoin/endorphin.git
+Vcs-Browser: https://github.com/endorphincoin/endorphin
+
+Package: endorphind
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Endorphin is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Endorphin uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Endorphin Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, endorphind, and the CLI tool
+ endorphin-cli to interact with the daemon.
+
+Package: endorphin-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Endorphin is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Endorphin uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Endorphin Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Endorphin-Qt, a GUI for Endorphin based on Qt.
+
+Package: endorphin-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Endorphin is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Endorphin uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Endorphin Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides endorphin-tx, a command-line transaction creation
+ tool which can be used without a endorphin daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

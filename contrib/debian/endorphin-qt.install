@@ -1,0 +1,6 @@
+usr/local/bin/endorphin-qt usr/bin
+share/pixmaps/endorphin32.xpm usr/share/pixmaps
+share/pixmaps/endorphin16.xpm usr/share/pixmaps
+share/pixmaps/endorphin128.png usr/share/pixmaps
+debian/endorphin-qt.desktop usr/share/applications
+debian/endorphin-qt.protocol usr/share/kde4/services/
