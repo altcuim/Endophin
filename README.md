@@ -1,4 +1,4 @@
-Endorphin Core staging tree 1.0.0.x
+Endorphin Core staging tree 2.0.0.x
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/endorphincoin/endorphin.svg?branch=master)](https://travis-ci.org/endorphincoin/endorphin) `develop:` [![Build Status](https://travis-ci.org/endorphincoin/endorphin.svg?branch=develop)](https://travis-ci.org/endorphincoin/endorphin/branches)
